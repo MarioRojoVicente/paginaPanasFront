@@ -5,12 +5,38 @@
     --rusty_red: #984B43;
     --warm_yellow: #EAC67A;
     --gold: #ffd700;
-    background-color: white;
+    --silver: #C0C0C0;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+body{
+    padding: 0;
+    margin: 0;
 }
 
 header{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    padding-left: 50px;
+}
+
+header>image{
+    float: left;
+}
+
+header>div{
+    background-color: inherit;
+    border-top: 0;
+    border-bottom: 0;
+    border-color: var(--gold);
+    border-style: solid;
+    color: var(--gold);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 15px;
+    margin: 0px 20px;
+    float: right;
+    height: auto;
 }
 
 header>h1{
@@ -32,9 +58,22 @@ footer>div>div{
 }
 
 footer>div>div>a{
-    color:var(--color1);
+    color:var(--navy_blue);
     display: block;
     margin-bottom: 0.625rem;
 }
 
+#login_container{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+#login_container>input{
+    color: var(--gunmetal);
+    background-color: white;
+    border: black;
+    border-width: 4px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
