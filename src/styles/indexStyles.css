@@ -1,0 +1,40 @@
+
+:root{
+    --navy_blue: #18121E;
+    --gunmetal: #233237;
+    --rusty_red: #984B43;
+    --warm_yellow: #EAC67A;
+    --gold: #ffd700;
+    background-color: white;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+header>h1{
+	border: 2px solid var(--color1);
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+footer>div{
+    padding: 1.25rem;
+    background-color: #C88121;
+    min-height: 6.25rem;
+}
+
+footer>div>div{
+    float: right;
+    width: 30%;
+}
+
+footer>div>div>a{
+    color:var(--color1);
+    display: block;
+    margin-bottom: 0.625rem;
+}
+
+
