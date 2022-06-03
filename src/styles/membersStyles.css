@@ -1,0 +1,31 @@
+
+main>div{
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+main>div>a{
+    display: block;
+    color: var(--navy_blue);
+    text-decoration: none;
+
+    margin: 15px 10%;
+
+    padding: 20px 20px;
+    border: 3px solid var(--rusty_red);
+    background-color: whitesmoke;
+    box-shadow: 10px 5px 5px var(--silver);
+
+    transition: background-color 0.5s;
+}
+
+main>div>a:hover{
+    background-color: var(--warm_yellow);
+}
+
+.icon{
+    height: 40px;
+    margin-left: 10%;
+    margin-right: 10px;
+    
+}

@@ -1,29 +1,19 @@
 
-:root{
-    --navy_blue: #18121E;
-    --gunmetal: #233237;
-    --rusty_red: #984B43;
-    --warm_yellow: #EAC67A;
-    --gold: #ffd700;
-    --silver: #C0C0C0;
-    background-color: black;
-}
 
 body{
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 
 header{
     background-color: white;
+    font-family: "avenirprobold";
     color: black;
-    padding-left: 50px;
-    padding-right: 200px;
+    padding-left: 5%;
+    padding-right: 10%;
     height: 85px;
-}
-
-header>image{
-    float: left;
+    overflow: hidden;
 }
 
 header>div{
@@ -31,11 +21,33 @@ header>div{
     background-color: inherit;
     color: black;
     font-size: 14px;
+    font-weight: 600;
     text-transform: uppercase;
     padding: 0px 15px;
     margin: 0px 20px;
     float: right;
+    top:40%;
+    transition: color .5s;
+}
+
+header>div:hover{
+    color: var(--warm_yellow);
+    border-bottom: 2px solid var(--warm_yellow);
+}
+
+header>img{
+    height: 100%;
+}
+
+header>span{
+    position: relative;
+    color: var(--rusty_red);
+    font-size: 18px;
+    font-weight: 600;
+    float: right;
     top:35%;
+    width: 35%;
+    text-align: left;
 }
 
 #login_container{

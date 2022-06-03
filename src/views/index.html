@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <HTML lang="es">
 <HEAD>
-	<title>Index</title>
+	<title>Los Panas</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../resources/images/favIcon.svg" rel="icon" type="image/x-icon">
 	<link href="../styles/indexStyles.css" rel="stylesheet" type="text/css">
+	<link href="../styles/colorPalete.css" rel="stylesheet" type="text/css">
+	<script src="../scripts/router.js" ></script>
+	<script src="../scripts/index.js" ></script>
 </HEAD>
 <BODY>
 	<header>
-		<img src="../resources/images/logo.png" height="80px">
+		<img src="../resources/images/logo.png" >
 		<div><span>Sign In</span></div>
-		<div><span>Sign In</span></div>
-		<div><span>Sign In</span></div>
-		<div><span>Sign In</span></div>
-		<div><span>Sign In</span></div>
+		<div><span>Los Panas Team</span></div>
+		<div onclick="loadView('members.html')"><span>Members</span></div>
+		<div><span>Projects</span></div>
+		<div onclick="loadView('home.html')"><span>Home</span></div>
+		<span>Skyrocket yourself</span>
 	</header>
 	<main>
-		<div id="login_container">
-			<input type="text" placeholder="User">
-			<input type="password" placeholder="Password">
-			<button>Sing In</button>
-			<span>If you do not have an account yet try <a>Registering</a></span>
-		</div>
 	</main>
 	<footer>	
 	</footer>
