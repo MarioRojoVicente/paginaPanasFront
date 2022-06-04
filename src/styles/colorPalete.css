@@ -3,8 +3,9 @@
     --gunmetal: #233237;
     --rusty_red: #984B43;
     --warm_yellow: #EAC67A;
-    --gold: #ffd700;
+    --gold: #D4AF37;
     --silver: #C0C0C0;
-    background-color: black;
+    --beige: #CFB997;
+    background-color: #000026; /*2A2927;*/
     color: white;
 }
