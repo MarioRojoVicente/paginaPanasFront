@@ -64,3 +64,9 @@ header>span{
     padding-left: 10px;
     margin-right: 10px;
 }
+
+.selected{
+    color: var(--warm_yellow);
+    /* font-size: 18px; */
+    border-bottom: 2px solid var(--warm_yellow);
+}

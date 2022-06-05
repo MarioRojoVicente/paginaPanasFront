@@ -1,47 +1,48 @@
-let members_mock = [
-    {
-        name: "Pedro",
-        lastnames: "Jimenez de la Paz",
-        tags: ["Developer", "Designer", "Engeneer"]
-    },
-    {
-        name: "Alberto",
-        lastnames: "Pedrero Degüelles",
-        tags: ["Developer", "Designer", "Engeneer"]
-    },
-    {
-        name: "Elena",
-        lastnames: "Nito del Bosque",
-        tags: ["Developer", "Designer", "Engeneer"]
-    },
-    {
-        name: "Elbert",
-        lastnames: "Galarga",
-        tags: ["Developer", "Designer", "Engeneer"]
-    },
-    {
-        name: "Pedro",
-        lastnames: "Jimenez de la Paz",
-        tags: ["Developer", "Designer", "Engeneer"]
-    },
-    {
-        name: "Alberto",
-        lastnames: "Pedrero Degüelles",
-        tags: ["Developer", "Designer", "Engeneer"]
-    },
-    {
-        name: "Elena",
-        lastnames: "Nito del Bosque",
-        tags: ["Developer", "Designer", "Engeneer"]
-    },
-    {
-        name: "Elbertttttttttttttttttttttttttttttttttttttttttt",
-        lastnames: "Galarga",
-        tags: ["Software Developerrrrrrrrrrrrrrrrr", "Designer", "Engeneer", "Developer", "Designer", "Engeneer"]
-    }
-]
+
 
 async function loadMembersList(){
+    let members_mock = [
+        {
+            name: "Pedro",
+            lastnames: "Jimenez de la Paz",
+            tags: ["Developer", "Designer", "Engeneer"]
+        },
+        {
+            name: "Alberto",
+            lastnames: "Pedrero Degüelles",
+            tags: ["Developer", "Designer", "Engeneer"]
+        },
+        {
+            name: "Elena",
+            lastnames: "Nito del Bosque",
+            tags: ["Developer", "Designer", "Engeneer"]
+        },
+        {
+            name: "Elbert",
+            lastnames: "Galarga",
+            tags: ["Developer", "Designer", "Engeneer"]
+        },
+        {
+            name: "Pedro",
+            lastnames: "Jimenez de la Paz",
+            tags: ["Developer", "Designer", "Engeneer"]
+        },
+        {
+            name: "Alberto",
+            lastnames: "Pedrero Degüelles",
+            tags: ["Developer", "Designer", "Engeneer"]
+        },
+        {
+            name: "Elena",
+            lastnames: "Nito del Bosque",
+            tags: ["Developer", "Designer", "Engeneer"]
+        },
+        {
+            name: "Elbertttttttttttttttttttttttttttttttttttttttttt",
+            lastnames: "Galarga",
+            tags: ["Software Developerrrrrrrrrrrrrrrrr", "Designer", "Engeneer", "Developer", "Designer", "Engeneer"]
+        }
+    ]
 
     let members = members_mock; // ahora se moquea pero aquí iría la llamada al endpoint de cgetMembers
     
