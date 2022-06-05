@@ -2,7 +2,7 @@
 
 function loadProjectsList(){
     let projects_mock = [
-        {title:"Titulo de Proyecto",
+        {title:"Titulo de Proyectooooooooooooooooooooooooooooooooooooooooooooooooo",
          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor nisi, dictum vel congue eu, aliquet quis arcu. Nam euismod quam quis viverra elementum. In ornare, nibh vel pellentesque finibus, elit dolor vestibulum est, quis vehicula lorem purus vel arcu. Cras ex justo, pharetra placerat bibendum vitae, placerat et ante. Aenean metus diam, elementum vitae justo id, semper pharetra ligula. Sed mattis leo in dui facilisis vestibulum. Pellentesque sit amet viverra lectus, nec placerat felis. Aliquam iaculis sit amet erat ac rutrum. Sed posuere quam quis faucibus lacinia. Proin id velit quis purus laoreet rhoncus et vel turpis. Morbi aliquam finibus euismod. Nulla mollis urna mi, non fermentum ipsum vehicula at. Vestibulum vel aliquam enim. Phasellus efficitur tellus quam, dignissim imperdiet augue malesuada eget. Suspendisse id lobortis odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec eget viverra diam. Sed non diam imperdiet, cursus dui eu, sodales orci. Suspendisse potenti. Nam pharetra ultrices turpis ut varius.",
          temp: null
         },
