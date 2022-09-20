@@ -1,0 +1,86 @@
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: var(--beige);
+    border-radius: 10px;
+}
+
+#searchBarContainer{
+    position: relative;
+    height: 10vh;
+    left: 10%;
+}
+
+#searchBarContainer>input{
+    position:relative;
+    top: 25%;
+    background-color: var(--beige);
+    color: black;
+    border: 2px solid white;
+    padding: 5px;
+    width: 20%;
+    border-radius: 10px;
+}
+
+#membersCardsContainer{
+    position: relative;
+    overflow-y: auto;
+    max-height: 79vh;
+    width: 80%;
+    left: 10%;
+}
+
+#memberCard{
+    display: inline-block;
+    width: 20%;
+    margin: 3% 6.6666667%;
+}
+
+#memberCard>img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#memberCard>span{
+    margin: 10px;
+    display: block;
+    max-width: 100%;
+    height: 19px;
+    overflow: hidden;
+}
+
+#tagContainer{
+    width: 100%;
+    height: 80px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+#tagContainer>span{
+    display: inline-block;
+    background-color: var(--beige);
+    border-radius: 10px;
+    padding: 3px 6px;
+    margin: 5px;
+    color: black;
+}
+
+.icon{
+    position: relative;
+    top:35%;
+    height: 40px;
+    margin-left: 10%;
+    margin-right: 10px;
+    
+}

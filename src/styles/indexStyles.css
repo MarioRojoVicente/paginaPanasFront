@@ -1,0 +1,72 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+header{
+    background-color: white;
+    font-family: "avenirprobold";
+    color: black;
+    padding-left: 5%;
+    padding-right: 10%;
+    height: 10vh;
+    overflow: hidden;
+}
+
+header>div{
+    position: relative;
+    background-color: inherit;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0px 15px;
+    margin: 0px 20px;
+    float: right;
+    top:40%;
+    transition: color .5s;
+}
+
+header>div:hover{
+    color: var(--warm_yellow);
+    border-bottom: 2px solid var(--warm_yellow);
+}
+
+header>img{
+    height: 100%;
+}
+
+header>span{
+    position: relative;
+    color: var(--rusty_red);
+    font-size: 18px;
+    font-weight: 600;
+    float: right;
+    top:35%;
+    width: 35%;
+    text-align: left;
+}
+
+#login_container{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#login_container>input{
+    color: var(--gunmetal);
+    background-color: white;
+    border: black;
+    border-width: 4px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.selected{
+    color: var(--warm_yellow);
+    /* font-size: 18px; */
+    border-bottom: 2px solid var(--warm_yellow);
+}

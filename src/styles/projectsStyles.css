@@ -1,0 +1,148 @@
+
+::-webkit-scrollbar {
+    position: relative;
+    left:5%;
+    width: 5px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: var(--beige);
+    border-radius: 10px;
+}
+
+#searchBarContainer{
+    position: relative;
+    height: 10vh;
+    left: 10%;
+}
+
+#searchBarContainer>input{
+    position:relative;
+    top: 25%;
+    background-color: var(--beige);
+    color: black;
+    border: 2px solid white;
+    padding: 5px;
+    width: 20%;
+    border-radius: 10px;
+}
+
+#projectsCardsContainer{
+    position: relative;
+    overflow-y: auto;
+    max-height: 75vh;
+    width: 80%;
+    left: 10%;
+    margin-top: 20px;
+}
+
+#projectsCardsContainer>div{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);;
+    grid-template-rows: 10;
+    width: 80%;
+    height: 235px;
+    /* margin:100px auto; */
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: 2px solid var(--beige);
+    border-radius: 15px;
+}
+
+#projectsCardsContainer>div>img{
+    grid-column: 1 / 2;
+    grid-row: 1 / 10;
+    position: relative;
+    top: 15px;
+    left: 20px
+}
+
+#projectsCardsContainer>div>span{
+    grid-column: 3 / 10;
+    grid-row: 1 / 1;
+    position: relative;
+    font-size:x-large;
+    height: 37px;
+    /* padding-bottom: 15px; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#description{
+    grid-column: 3 / 10;
+    grid-row: 2 / 10;
+    /* border: 2px solid var(--beige);
+    border-radius: 15px; */
+    padding: 10px;
+    height: 80%;
+    overflow-y: auto;
+}
+
+.icon{
+    position: relative;
+    top:35%;
+    height: 40px;
+    margin-left: 10%;
+    margin-right: 10px;
+    
+}
+
+.circle{
+    grid-column: 1;
+    grid-row: 10;
+    position: relative;
+    top: 70%;
+    background-color: #000026;
+    border: 2px solid var(--beige);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.circle>span{
+    position: relative;
+    top: 25%;
+}
+
+.fullName{
+    display: none;
+}
+
+.circle:hover #textDiv, .circle:hover #triangleDiv{
+    display: block;
+}
+
+#textDiv{
+    display: none;
+    position: relative;
+    top:23px;
+    border: 2px solid var(--beige);
+    border-radius: 15px;
+    height: fit-content;
+    width: fit-content;
+    padding: 7px;
+    white-space: nowrap;
+}
+
+#triangleDiv{
+    display: none;
+    position: relative;
+    top:23px;
+    left: 15px;
+    height: 0px;
+    width: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid var(--beige);
+}
